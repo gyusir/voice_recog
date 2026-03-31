@@ -1,0 +1,13 @@
+# VibeVoice-ASR 회의 녹취록 파이프라인 의존성
+# 실제로는 VibeVoice (pip install -e .) 설치 시 대부분 포함됨
+# 이 파일은 참고용 문서입니다
+
+transformers>=4.51.3,<5.0.0
+accelerate
+librosa
+pydub
+av
+numpy
+scipy
+tqdm
+torch
